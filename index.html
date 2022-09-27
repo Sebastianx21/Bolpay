@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
@@ -112,13 +113,14 @@
                     </div> <!-- .contenedor-campos -->
 
                     <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" value="enviar">
+                        <input class="boton w-sm-100" type="submit" value="enviar" onclick="alerta()" >
+                        
                     </div>
 
                 </fieldset>
                     
-                <input type="hidden" name="_next" value="https://sebastianx21.github.io/Bolpay/">
                 <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://sebastianx21.github.io/Bolpay/">
 
             </form>
         </section>
